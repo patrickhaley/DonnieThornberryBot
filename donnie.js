@@ -15,8 +15,7 @@ let dispatcher = null;
 let target = null;
 let onOff = true;
 
-// Bot commands. These weren't in the original but I added them quickly just to make the bot
-// easier to use because I'm a nice guy. :)
+// Bot commands
 const Commands = {
 	'target': {
 		help: 'Set the person that Donnie will target. Usage: don!target @ElizaThornberry . Must @ (mention) a valid user. THIS MUST BE A VALID USER, MEANING THE NAME MUST BE HIGHLIGHTED BLUE INDICATING YOU ARE MENTIONING A USER.',
@@ -124,7 +123,7 @@ Client.on('guildMemberSpeaking', (member, speaking) => {
 // it will recursively play while the target
 // is still speaking.
 const play = (connection) => {
-	dispatcher = connection.play('./donnie.mp3')
+	dispatcher = connection.play('./src/donnie.mp3')
 	.on('finish', () => {
 		if (isTalking) {
 			play(connection)
