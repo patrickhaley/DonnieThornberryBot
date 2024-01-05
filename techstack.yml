@@ -1,11 +1,12 @@
 repo_name: patrickhaley/DonnieThornberryBot
 report_id: 6538fb1dfa0959f3a4a135ccf2da2866
+version: 0.1
 repo_type: Public
-timestamp: '2023-12-06T20:27:03+00:00'
+timestamp: '2024-01-05T08:28:30+00:00'
 requested_by: patrickhaley
 provider: github
 branch: master
-detected_tools_count: 5
+detected_tools_count: 6
 tools:
 - name: JavaScript
   description: Lightweight, interpreted, object-oriented language with first-class
@@ -16,6 +17,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/patrickhaley/DonnieThornberryBot
   detection_source: Repo Metadata
 - name: Dotenv
   description: Loads environment variables from .env for Nodejs projects
@@ -26,6 +28,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Server Configuration and Automation
   image_url: https://img.stackshare.io/service/8067/default_90dcb1286af7685c68df319c764b80704df1155b.png
+  detection_source_url: https://github.com/patrickhaley/DonnieThornberryBot/blob/master/package.json
   detection_source: package.json
   last_updated_by: aaronr5tv
   last_updated_on: 2021-07-05 14:02:01.000000000 Z
@@ -37,6 +40,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Version Control System
   image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/patrickhaley/DonnieThornberryBot
   detection_source: Repo Metadata
 - name: npm
   description: The package manager for JavaScript.
@@ -46,6 +50,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Front End Package Manager
   image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source_url: https://github.com/patrickhaley/DonnieThornberryBot/blob/master/package.json
   detection_source: package.json
   last_updated_by: aaronr5tv
   last_updated_on: 2021-07-05 14:02:01.000000000 Z
@@ -56,6 +61,21 @@ tools:
   open_source: false
   hosted_saas: false
   image_url: https://img.stackshare.io/service/8403/logo-square.png
+  detection_source_url: https://github.com/patrickhaley/DonnieThornberryBot/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: aaronr5tv
+  last_updated_on: 2021-07-05 14:02:01.000000000 Z
+- name: discord.js
+  description: A powerful library for interacting with the Discord API
+  package_url: https://www.npmjs.com/discord.js
+  version: 12.5.3
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16866/default_21db97bdb9f4092d80f256d3afec4658fbafe443.png
+  detection_source_url: https://github.com/patrickhaley/DonnieThornberryBot/blob/master/package-lock.json
   detection_source: package.json
   last_updated_by: aaronr5tv
   last_updated_on: 2021-07-05 14:02:01.000000000 Z
